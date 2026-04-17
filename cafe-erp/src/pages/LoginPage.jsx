@@ -29,7 +29,7 @@ export default function LoginPage() {
             </div>
             <div>
               <h1 className="text-3xl font-black text-slate-800 dark:text-slate-100">
-                {platform?.appName || 'كوفي ERP'}
+                {platform?.appName}
               </h1>
               <p className="text-slate-500 font-bold text-sm">بوابة النظام الموحدة</p>
             </div>

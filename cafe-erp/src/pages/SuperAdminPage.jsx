@@ -11,7 +11,7 @@ export default function SuperAdminPage() {
   const [showSettingsModal, setShowSettingsModal] = useState(false)
   const [editTenant, setEditTenant] = useState(null)
   const [form, setForm]             = useState({})
-  const [appNameForm, setAppNameForm] = useState(platform?.appName || 'كوفي ERP')
+  const [appNameForm, setAppNameForm] = useState(platform?.appName || '')
 
   const openAdd = () => {
     setEditTenant(null)

@@ -30,7 +30,7 @@ export default function CustomerMenuPage() {
       {/* Header */}
       <header className="bg-white dark:bg-slate-800 px-4 md:px-8 py-4 shadow-sm sticky top-7 z-30 flex justify-between items-center border-b border-slate-200 dark:border-slate-700">
         <h1 className="text-xl md:text-2xl font-black text-indigo-600 flex items-center gap-2">
-          <Coffee size={22} /> منيو {platform?.appName || 'الكافيه'}
+          <Coffee size={22} /> منيو {platform?.appName}
         </h1>
         <div className="flex items-center gap-3">
           <button onClick={() => setIsDarkMode(!isDarkMode)} className="p-2 bg-slate-100 dark:bg-slate-700 rounded-xl text-slate-500 dark:text-slate-300 transition-colors">

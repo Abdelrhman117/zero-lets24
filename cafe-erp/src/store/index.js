@@ -11,7 +11,7 @@ const DEFAULT_PRODUCTS = [
 ]
 
 const DEFAULT_PLATFORM = {
-  appName: 'كوفي ERP',
+  appName: '',
   tenants: [
     {
       id: 'cafe1',

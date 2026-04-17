@@ -122,7 +122,7 @@ export default function App() {
               </button>
             )}
             <h1 className="font-black text-sm md:text-lg truncate max-w-[180px] md:max-w-xs text-slate-800 dark:text-white">
-              {currentUser.role === 'super_admin' ? (platform?.appName || 'المنصة') :
+              {currentUser.role === 'super_admin' ? (platform?.appName) :
                currentUser.role === 'cashier'     ? `كاشير — ${currentUser.cafeName}` :
                currentUser.cafeName}
             </h1>

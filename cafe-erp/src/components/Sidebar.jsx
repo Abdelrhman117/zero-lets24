@@ -31,7 +31,7 @@ export default function Sidebar({ currentRoute, onNavigate, onClose }) {
         <div>
           <h2 className="text-lg font-black flex items-center gap-2 text-slate-800 dark:text-white">
             <Coffee className="text-indigo-500 w-5 h-5" />
-            {platform?.appName || 'كوفي ERP'}
+            {platform?.appName}
           </h2>
           <p className="text-indigo-600 dark:text-indigo-400 text-xs mt-0.5 font-bold truncate max-w-[180px]">
             {currentUser?.cafeName}
